@@ -4,7 +4,7 @@
 }
 .menu-container{
     display: flex;
-    background-color: black;
+    background-color: rgb(39, 38, 38);
     list-style: none;
     align-items: center;
     justify-content:space-between;
@@ -17,14 +17,14 @@
     margin: 5px;
     padding: 5px;
     font-size:20px;
-    color: blueviolet;
+    color: rgb(134, 129, 212);
 }
 .item:hover{
     color: yellow;
     cursor:progress;
 }
 .logo-desing{
-    background-color: #000000;
+    background-color: rgb(51, 43, 43);
     width: 200px;
     cursor:cell;
 }
@@ -33,9 +33,11 @@
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    /* border: 2px solid gray; */
+    background-image: url('/img/img.webp');
     color: white;
-    background-color: black;
+    /* background-color: black; */
+    background-position: cover;
+    background-repeat: no-repeat;
 }
 .siz{
     font-size: 45px;
@@ -61,4 +63,40 @@
 }
 .baner-photo{
     width: 300px;
+}
+.main-ab{
+    font-size: 45px;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.about-img{
+
+}
+.baner-1{
+    width: 300px;
+}
+.about-text{
+
+}
+.ab-tex{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+.p-tag{
+    font-size:larger;
+
+}
+.but{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px;
+
 }
