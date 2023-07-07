@@ -100,3 +100,34 @@
     padding: 5px;
 
 }
+.main-box{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    background-color: rgb(41, 37, 37);
+
+}
+.se-box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 5px 5px 15px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.last-img{
+    width:70px;
+    /* height: 230px; */
+    /* box-shadow: 5px 5px 15px grey; */
+
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-titel{
+    padding: 10px;
+}
